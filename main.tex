@@ -32,14 +32,71 @@
 \end{itemize}
 \vspace{5mm}
 
-\section{Data Carpentry}
+\section{Data Carpentry: The Unix Shell}
+\date{27/08/2019}
+\subsection{Lesson 2: Navigating Files and Directories}
+\begin{itemize}
+    \item{\textbf{Intention: complete instructions 'more ls flags'.}}
+\begin{itemize}
+   
+    \item{\textbf{15:35 Action:} Implementing ls -1 code in the shell.}
+    \item{\textbf{Result:} No difference appeared in comparison to just the ls code.}
+    \item{\textbf{15:50 Action:} Implementing the ls -1 -h code in the Shell}
+    \item{\textbf{Result:} No difference appeared in comparison to just the ls code.}
+    \item{\textbf{16:00 Troubleshoot}: consulted ls --help. -s is needed alongside the ls -h function. This was implemented and successfully showed file sizes in a 'human readable' fashion.}
+    \end{itemize}
+    \vspace{3mm}
+    
+
+
+    \item{\textbf{Intention: Complete instruction 'Listing Recursively and By Time.}}
+\begin{itemize}
+    \item{\textbf{16:20 Action:} implemented ls -R}
+    \item{\textbf{Result:} The directories were most certainly shown recursively. I suppose all these scrolling numbers and letters is the result of a messy computer.}
+    \item{\textbf{16:25 Action:} Implement ls -t code.}
+    \item {\textbf{Result:} This code does what the lesson said it would do. I made a copy of an old folder with some documents into the home directory and this was shown first.}
+    \item{\textbf{16:30 Action:} Implement ls -R -t code.}
+    \item{\textbf{Result:} This showed the same ridiculously large amount of information with the only exception of showing the last changed files and directories first.}
+\end{itemize}
+\end{itemize}
+
+\begin{itemize}
+\item{\textbf{Intention:} Complete Activity 'Absolute vs Relative Paths.'}
+\begin{enumerate}
+
+\item{\textbf{cd .} NO: the dot means the directory you are in.}
+\item{\textbf{cd /} NO: '/' is root directory.}
+\item{\textbf{cd /home/amanda} NO: the computer wont understand.}
+\item{\textbf{cd ../..} :NO this would make an extra command necessary to move back down again.}
+\item{\textbf{cd ~} YES: the tilde would send you to the right place.}
+\item{\textbf{cd home} NO: Once again the computer wont read Amanda's mind.}
+\item{\textbf{cd ~/data/..} YES: would go to the right spot then down and back up again.}
+\item{\textbf{cd} YES: same function as the tilde}
+\item{\textbf{cd ..} YES: would go back up one.}
+
+
+\end{enumerate}
+\end{itemize}
+
+\begin{itemize}
+\item{\textbf{Intention:} Complete activity 'Relative Path Resolution.' }
+\item{\textbf{Response:} The correct answer would be number 4. The other three are not correct as the '..' function would send us back to /Users. The trick in the question is that there are two /Backup directories.}
+
+\item{\textbf{Intention:} Complete activity 'ls Reading Comprehension.}
+\item{\textbf{Response:} 1 would not as the pwd command doesnt represent the directory. 2 and 3 are correct. For 2, if we are already in the /Users/backup directory, then the ls command would just show what is inside that directory. 3 is also correct because it specifically tells the shell which directory you want to view but without shortcuts.}
+
+
+
+
+\end{itemize}
 
 \vspace{5mm}
 \section{Elaboration}
 
 \vspace{5mm}
 
-\section{Journal Coding}
+\section{LateX Coding}
+\subsection{Journal Coding}
 \date{27/8/2019 12:52}
 \begin{itemize}
 \item{Intent: Format Week 5-6 Journal in Overleaf}
