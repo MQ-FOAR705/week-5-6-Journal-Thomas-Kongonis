@@ -176,6 +176,280 @@
 \end{itemize}
 
 
+
+\end{itemize}
+
+\subsection{Lesson 4: Pipes and Filters}
+\date{16:30 1/09/2019}
+\begin{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'What Does sort-n Do?'}
+\begin{itemize}
+
+\item{\textbf{Response:} -n stands for numerical so it will sort them in that fashion.}
+
+\end{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'What does >> Mean?'}
+
+\begin{itemize}
+\item{\textbf{Action:} implement code 'echo hello > testfile01.txt' twice.}
+
+\item{\textbf{Result:} This code created a text file with the word hello in it. The second code caused no change as the orignial file was rewritten.}
+
+\item{\textbf{Action:} Implement Code 'echo hello >> testfile02.txt' twice.}
+
+\item{\textbf{Result:} The word hello was written to the document twice.}
+
+\end{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'Appending Data'}
+
+\begin{itemize}
+\item{\textbf{Action:} Implement codes 'head -n 3 animals.txt > animals-subset.txt' and 'tail -n 2 animals.txt >> animals-subset.txt'.}
+
+\item{\textbf{Result:} The activity gave 4 options and asked that we choose the correct one. The correct answer is 3 as the head code will give 3 lines from the top down and write them to the animal-subset file. Secondly, the tail code will give the last 2 lines of data and add it to the already created file due to the >> code.}
+
+\end{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'Piping Commands Together.'}
+
+\begin{itemize}
+\item{\textbf{Action:} Implemented the codes given for the activity except for number 1.}
+
+\item{\textbf{Result:} Based upon my knowledge i knew that the first code would be a problem as the output file writing code was used in liu of the pipe. After trying the other three number 4 was the solution as number 2 didnt work and number three didnt show the 2 test files.}
+
+\end{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'Pipe Reading Comprehension'}
+
+\begin{itemize}
+\item{\textbf{Action:} Implement code 'cat animals.txt | head -n 5 | tail -n 3 | sort -r > final.txt'.}
+
+\item{\textbf{Result:} The code does 5 things. First it reads the animals file, then it takes the first 5 lines and extracts the bottom 3 from those five lines. Then, it sorts them in reverse order and writes that to a file. So what we are left with in the file is rabbit, deer then raccoon.}
+
+\end{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'Pipe Construction'}
+
+\begin{itemize}
+\item{\textbf{Action:} implement code 'cut -d , -f 2 animals.txt'.}
+
+\item{\textbf{Result:} Got the same result as the lesson. To remove all the repeat animals, we would also need to sort these animals and then only accept the unique ones so we need to add a sort and a uniq and separate them by the pipe. Implemented 'cut -d , -f 2 animals.txt | sort | uniq'. The result was correct.}
+
+\end{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'Which Pipe?'}
+
+\begin{itemize}
+\item{\textbf{Action:} implement codes 5, 4 and 3 to see which is the correct coe.}
+
+\item{\textbf{Result:} number 4 is the correct one as it gives a list. number 5 just states that there are 5 unique animals but doesnt specify. Code 3 doesnt sort them and number them correct.}
+
+\end{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'Wildcard Expressions'}
+
+\begin{itemize}
+\item{\textbf{Action:} Implemented code ls *A.txt | *B.txt.}
+
+\item{\textbf{Result:} Only showed the B files.}
+
+\item{\textbf{Action:} Implemented code ls *A.txt and the in a new line entered ls *B.txt.}
+
+\item{\textbf{Result:} Got the correct info in 2 seperate results.}
+
+\end{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'Removing Unneeded Files'}
+
+\begin{itemize}
+\item{\textbf{Response:} Number one would remove one character name files. Number 2 would remove the correct files. Number 3 would do something weird because of the space. Number 4 would delete everything because the last * would represent any file type.}
+
+
+\end{itemize}
+
+\end{itemize}
+
+\subsection{Lesson 4: Loops}
+
+\begin{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'Variables in Loops'}
+
+\begin{itemize}
+\item{\textbf{Action:}.}
+
+\item{\textbf{Result:}.}
+
+\end{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'Limiting Sets of Files'}
+
+\begin{itemize}
+\item{\textbf{Action:}.}
+
+\item{\textbf{Result:}.}
+
+\item{\textbf{Action:}.}
+
+\item{\textbf{Result:}.}
+
+
+\end{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'Saving to a File in a Loop- Part One'}
+
+\begin{itemize}
+\item{\textbf{Action:}.}
+
+\item{\textbf{Result:}.}
+
+\end{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'Saving to a File in a Loop- Part 2'}
+
+\begin{itemize}
+\item{\textbf{Action:}.}
+
+\item{\textbf{Result:}.}
+
+\end{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'Doing a Dry Run'}
+
+\begin{itemize}
+\item{\textbf{Action:}.}
+
+\item{\textbf{Result:}.}
+
+\end{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'Nested Loops'}
+
+\begin{itemize}
+\item{\textbf{Action:}.}
+
+\item{\textbf{Result:}.}
+
+\end{itemize}
+
+\end{itemize}
+
+\subsection{Lesson 6: Shell Scripts}
+
+\begin{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'List Unique Species'}
+
+\begin{itemize}
+\item{\textbf{Action:}.}
+
+\item{\textbf{Result:}.}
+
+\end{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'Why Record Commands in the History Before Running Them?'}
+
+\begin{itemize}
+\item{\textbf{Action:}.}
+
+\item{\textbf{Result:}.}
+
+\end{itemize}
+
+
+\item{\textbf{Intention:} Complete Activity 'Variables in Shell Scripts'}
+
+\begin{itemize}
+\item{\textbf{Action:}.}
+
+\item{\textbf{Result:}.}
+
+\end{itemize}
+
+
+\item{\textbf{Intention:} Complete Activity 'Find the Longest File With a Given Extension'}
+
+\begin{itemize}
+\item{\textbf{Action:}.}
+
+\item{\textbf{Result:}.}
+
+\end{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'Script Reading Comprehension'}
+
+\begin{itemize}
+\item{\textbf{Action:}.}
+
+\item{\textbf{Result:}.}
+
+\end{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'Debugging Scripts'}
+
+\begin{itemize}
+\item{\textbf{Action:}.}
+
+\item{\textbf{Result:}.}
+
+\end{itemize}
+
+
+\end{itemize}
+
+
+\subsection{Lesson 7: Finding Things}
+
+\begin{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'Using grep'}
+
+\begin{itemize}
+\item{\textbf{Action:}.}
+
+\item{\textbf{Result:}.}
+
+\end{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'Tracking a Species'}
+
+\begin{itemize}
+\item{\textbf{Action:}.}
+
+\item{\textbf{Result:}.}
+
+\end{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'Little Women'}
+
+\begin{itemize}
+\item{\textbf{Action:}.}
+
+\item{\textbf{Result:}.}
+
+\end{itemize}
+
+
+\item{\textbf{Intention:} Complete Activity 'Matching and Subtracting'}
+
+\begin{itemize}
+\item{\textbf{Action:}.}
+
+\item{\textbf{Result:}.}
+
+\end{itemize}
+
+\item{\textbf{Intention:} Complete Activity 'find Pipeline Reading Comprehension'}
+
+\begin{itemize}
+\item{\textbf{Action:}.}
+
+\item{\textbf{Result:}.}
+
+\end{itemize}
+
 \end{itemize}
 
 \vspace{5mm}
